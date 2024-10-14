@@ -10,7 +10,7 @@ streamlit run visual.py
 
 # 경기일정
 
-> (여기)[https://www.flashscore.co.kr/soccer/england/premier-league/fixtures/ ]
+> [여기](https://www.flashscore.co.kr/soccer/england/premier-league/fixtures/)
 > 에서 긁어서 경기일정.txt에 넣고 schedule.py에 csv 파일 만들어집니다. 이제 이 데이터로 자동화를 해야하는데. 지금은 airflow를 생각하고 있고.. 경기 시작 10분 전부터 넉넉하게 120 분 정도 api 호출을 해야할거 같은데 api 무료플랜으로 실시간성이 보장될지는.. 모르겠네요. 크롤링도 고려!
 
 ```
