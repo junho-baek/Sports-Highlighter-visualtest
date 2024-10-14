@@ -77,5 +77,4 @@ while True:
     with pie_chart_placeholder.container():
         st.pyplot(fig_pie)
 
-    # 2분(120초)마다 업데이트 (예시로 5초마다 업데이트)
     time.sleep(5)
